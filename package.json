@@ -1,0 +1,20 @@
+{
+  "name": "timestamp_validate",
+  "version": "1.0.0",
+  "description": "Validates user-supplied input in unix timecode or plain-language",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./node_modules/jasmine/bin/jasmine.js",
+    "start": "node ./node_modules/nodemon/bin/nodemon.js"
+  },
+  "author": "Alexander Borgen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "nodemon": "^1.11.0"
+  }
+}
